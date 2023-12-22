@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Pasos para Fork y Clone en GitHub</title>
+    <style>
+      h1 {
+        margin: 40px 0 30px;
+      }
+      a {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+
+      .active {
+        color: #52b9f9 !important;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="consola.html">Consola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="git.html">Comandos Git</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="forkclone.html">Fork y Clone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="github.html">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recursos.html">Recursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vscode.html">Visual Studio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Pasos para Fork y Clone en GitHub</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Paso</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Visita el repositorio en GitHub que deseas forkear.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Haz clic en el botón "Fork" en la esquina superior derecha de la
+              página. Esto creará una copia del repositorio en tu cuenta de
+              GitHub.
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Abre la ventana de comandos en el directorio donde deseas clonar
+              el repositorio.
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              Clona tu repositorio forkeado a tu máquina local usando el comando
+              <code>git clone &lt;URL_del_repo_fork&gt;</code>.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Diferencia entre Fork y Clone</h4>
+      <p>
+        <strong>Fork:</strong> Hacer un fork en GitHub significa crear una copia
+        independiente de un repositorio en tu propia cuenta de GitHub. Puedes
+        trabajar en tu versión del repositorio sin afectar el original.
+      </p>
+      <p>
+        <strong>Clone:</strong> Clonar un repositorio significa descargar una
+        copia del repositorio (ya sea el original o un fork) a tu máquina local.
+        Esto te permite trabajar con el código en tu entorno de desarrollo
+        local.
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

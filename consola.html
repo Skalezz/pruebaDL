@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Comparación de Comandos</title>
+    <style>
+      h1 {
+        margin: 40px 0 30px;
+      }
+      a {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+
+      .active {
+        color: #52b9f9 !important;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="consola.html">Consola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="git.html">Comandos Git</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forkclone.html">Fork y Clone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="github.html">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recursos.html">Recursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vscode.html">Visual Studio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Comparación de Comandos</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Función</th>
+            <th>Windows</th>
+            <th>macOS / Linux</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Listar archivos y directorios</td>
+            <td>dir</td>
+            <td>ls</td>
+          </tr>
+          <tr>
+            <td>Cambiar directorio</td>
+            <td>cd</td>
+            <td>cd</td>
+          </tr>
+          <tr>
+            <td>Mostrar ruta actual</td>
+            <td>N/A</td>
+            <td>pwd</td>
+          </tr>
+          <tr>
+            <td>Copiar archivos o directorios</td>
+            <td>copy</td>
+            <td>cp</td>
+          </tr>
+          <tr>
+            <td>Eliminar archivos</td>
+            <td>del</td>
+            <td>rm</td>
+          </tr>
+          <tr>
+            <td>Crear directorio</td>
+            <td>mkdir</td>
+            <td>mkdir</td>
+          </tr>
+          <tr>
+            <td>Eliminar directorio</td>
+            <td>rmdir</td>
+            <td>rmdir (o rm -r para directorios no vacíos)</td>
+          </tr>
+          <tr>
+            <td>Mostrar información de red</td>
+            <td>ipconfig</td>
+            <td>ifconfig (Linux) / ipconfig (macOS)</td>
+          </tr>
+          <tr>
+            <td>Enviar paquete de prueba (ping)</td>
+            <td>ping</td>
+            <td>ping</td>
+          </tr>
+          <tr>
+            <td>Mostrar estadísticas de red</td>
+            <td>netstat</td>
+            <td>netstat</td>
+          </tr>
+          <tr>
+            <td>Listar procesos en ejecución</td>
+            <td>tasklist</td>
+            <td>ps</td>
+          </tr>
+          <tr>
+            <td>Terminar proceso</td>
+            <td>taskkill</td>
+            <td>kill</td>
+          </tr>
+          <tr>
+            <td>Mostrar información del sistema</td>
+            <td>systeminfo</td>
+            <td>uname</td>
+          </tr>
+          <tr>
+            <td>Mostrar mensaje en pantalla</td>
+            <td>echo</td>
+            <td>echo</td>
+          </tr>
+          <tr>
+            <td>Apagar o reiniciar el sistema</td>
+            <td>shutdown</td>
+            <td>shutdown (Linux) / sudo shutdown (macOS)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

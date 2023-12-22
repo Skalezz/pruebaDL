@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Pasos para Iniciar un Repositorio Local y Subirlo a GitHub</title>
+    <style>
+      h1 {
+        margin: 40px 0 30px;
+      }
+      a {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+
+      .active {
+        color: #52b9f9 !important;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="consola.html">Consola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="git.html">Comandos Git</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forkclone.html">Fork y Clone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="github.html">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recursos.html">Recursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vscode.html">Visual Studio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Pasos para Iniciar un Repositorio Local y Subirlo a GitHub</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Paso</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0</td>
+            <td>
+              Configura tu nombre de usuario y correo electrónico localmente con
+              los comandos:
+              <ul>
+                <li><code>git config --global user.name "TuNombre"</code></li>
+                <li>
+                  <code>git config --global user.email "tu@email.com"</code>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              Abre la ventana de comandos en el directorio donde deseas crear el
+              repositorio.
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Ejecuta el comando <code>git init</code> para inicializar un nuevo
+              repositorio Git local.
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Añade archivos al repositorio usando
+              <code>git add &lt;nombre_archivo&gt;</code> o
+              <code>git add .</code> para agregar todos los archivos.
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              Realiza el primer commit con el comando
+              <code>git commit -m "Primer commit"</code>.
+            </td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>
+              Crea un nuevo repositorio en GitHub. Puedes hacerlo desde la
+              interfaz web de GitHub.
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Obtén la URL del repositorio remoto en GitHub.</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>
+              Agrega el repositorio remoto a tu repositorio local con el comando
+              <code>git remote add origin &lt;URL&gt;</code>.
+            </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>
+              Sube tus cambios al repositorio remoto en GitHub usando
+              <code>git push -u origin master</code> (o el nombre de tu rama).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
